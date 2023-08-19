@@ -88,5 +88,31 @@ line-height: 140%; /* 33.6px */
 }
 .textlogo{
     position: absolute;
-    
+    color: var(--main-white, #FFF);
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+top: 16px;
+left: 915px;
+}
+.leftpartheader{
+    color: #FFF;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+list-style: none;
+text-align: center;
+display: flex;
+gap: 40px;
+}
+.tok{
+    color: #B2A6FD;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
