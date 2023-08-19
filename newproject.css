@@ -98,6 +98,7 @@ top: 16px;
 left: 915px;
 }
 .leftpartheader{
+    position: relative;
     color: #FFF;
 font-size: 16px;
 font-style: normal;
@@ -107,6 +108,7 @@ list-style: none;
 text-align: center;
 display: flex;
 gap: 40px;
+left: 60px;
 }
 .tok{
     color: #B2A6FD;
@@ -115,4 +117,30 @@ font-size: 16px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+}
+.brt{
+    position: absolute;
+    top: 19px;
+    right: 458px;
+}
+.rightpartheader{
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    gap: 40px;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+right:188px ;
+list-style: none;
+left: 1100px;
+top: 5px;
+}
+.uio{
+    background: linear-gradient(144deg, #54D6FF 40%, #C275FF 10%, #F36AFF 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
